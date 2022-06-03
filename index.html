@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form validation</title>
+        <link rel="stylesheet" href="sty le.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <form  id="create-account-form" action="" method="GET">
+            <div class="title">
+                <h2>Create account</h2>
+            </div>
+           <div class="input-group">
+               <label for="username">name</label>
+               <input type="text" id="username" placeholder="name" name="username">
+               <i class="fas fa-check-circle"></i>
+               <i class="fas fa-exclamation-circle"></i>
+               <p>Error message</p>
+           </div>
+           <div class="input-group">
+            <label for="Email">Email</label>
+            <input type="Email" id="Email" placeholder="Email" name="Email">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error message</p>
+        </div>
+        <div class="input-group">
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="password" name="password">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error message</p>
+        </div>
+        <div class="input-group">
+            <label for="confirm-password"></label>
+            <input type="confirm-password" id="confirm-password" placeholder="confirm-password" name="confirm-password">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error message</p>
+        </div>
+        <button type="submit" class="button">submit</button>
+        </form>
+
+
+    <script src="js/script.js"></script>
+    </body>
+</html>
